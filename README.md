@@ -6,10 +6,7 @@ Tasks from the platform - Python Institute.
 * [Technologies](#technologies)
 
 ## General info
-* Project 1
-* Project 2
-* Project 3
-* Project 4
+* Tasks 1 - functions
 	
 ## Technologies
 Project is created with:
