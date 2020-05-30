@@ -24,7 +24,7 @@ def daysMonth(month):
 
     else:
         if month == 2:
-            print(f'Month {month} has 30 days')
+            print(f'Month {month} has 28 days')
         elif month in listDays30:
             print(f'Month {month} has 30 days')
         elif month in listDays31:
