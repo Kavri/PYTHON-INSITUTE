@@ -1,15 +1,15 @@
 #Twoim zadaniem jest napisanie i przetestowanie funkcji, która wymaga jednego argumentu (roku)
 # i zwraca wartość True jeżeli rok jest przestępny, lub False jeśli nie jest.
 
-def leapYear():
+def leapYear(year):
 
-    listYear = [1900, 2000, 2016, 1987]
+    if year % 4 == 0:
+        print(f"{year} is a leap year - True")
 
-    for Year in listYear:
-        if Year % 4 == 0:
-            print(f"{Year} is a leap year.")
+    else:
+        print(f"{year} isn't a leap year - False")
 
-        else:
-            print(f"{Year} isn't a leap year.")
-
-leapYear()
+leapYear(1900)
+leapYear(2000)
+leapYear(2016)
+leapYear(1987)
